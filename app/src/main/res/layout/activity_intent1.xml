@@ -1,0 +1,70 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/btAppel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Appel"
+        />
+    <Button
+        android:id="@+id/btWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        />
+    <Button
+        android:id="@+id/btMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        />
+    <Button
+        android:id="@+id/btMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        />
+    <Button
+        android:id="@+id/btMapLatLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map longit"
+        />
+    <Button
+        android:id="@+id/btMapQuary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Quary"
+        />
+    <Button
+        android:id="@+id/btMapRestuarant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map Resturant"
+        />
+    <Button
+        android:id="@+id/btMapHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map hotel"
+        />
+    <Button
+        android:id="@+id/btMapCiteCulture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map c culture"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel culture"
+        android:id="@+id/btMapCiteCultureHotel"/>
+
+</LinearLayout>
