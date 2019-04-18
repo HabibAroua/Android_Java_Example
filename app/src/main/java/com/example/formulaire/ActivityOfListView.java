@@ -2,7 +2,6 @@ package com.example.formulaire;
 
 import android.app.ListActivity;
 import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
@@ -29,6 +28,7 @@ public class ActivityOfListView extends ListActivity
         setContentView(R.layout.activity_of_list_view);
         eListe=new ArrayList<>();
         getElementFromXmlFile();
+
     }
 
     private void getElementFromArrayList()
