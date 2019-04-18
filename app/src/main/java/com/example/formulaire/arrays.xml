@@ -1,0 +1,12 @@
+<resources>
+    <integer-array name="numeros">
+        <item>10</item>
+        <item>13</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="noms">
+        <item>Zeinab</item>
+        <item>Yassine</item>
+        <item>Youssef</item>
+    </string-array>
+</resources>
