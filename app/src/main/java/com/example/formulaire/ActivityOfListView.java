@@ -28,7 +28,6 @@ public class ActivityOfListView extends ListActivity
         setContentView(R.layout.activity_of_list_view);
         eListe=new ArrayList<>();
         getElementFromXmlFile();
-
     }
 
     private void getElementFromArrayList()
@@ -57,6 +56,7 @@ public class ActivityOfListView extends ListActivity
         {
             eListe.add(new Etudiant(numeros[i],noms[i]));
         }
+
         ArrayAdapter<Etudiant> adapter= new ArrayAdapter<Etudiant>
                 (
                         this ,
