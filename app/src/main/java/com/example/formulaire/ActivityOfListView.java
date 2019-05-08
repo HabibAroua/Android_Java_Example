@@ -4,9 +4,7 @@ import android.app.ListActivity;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-
 import com.example.formulaire.entity.*;
-
 import java.util.ArrayList;
 
 public class ActivityOfListView extends ListActivity
@@ -65,4 +63,5 @@ public class ActivityOfListView extends ListActivity
                 );
         setListAdapter(adapter);
     }
+
 }

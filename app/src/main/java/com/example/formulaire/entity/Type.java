@@ -10,6 +10,12 @@ public class Type
 
     }
 
+    public Type(int id , String libelle)
+    {
+        this.id=id;
+        this.libelle=libelle;
+    }
+
     public Type(String libelle)
     {
         this.libelle=libelle;
