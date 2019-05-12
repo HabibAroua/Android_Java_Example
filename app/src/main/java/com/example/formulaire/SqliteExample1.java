@@ -20,16 +20,7 @@ public class SqliteExample1 extends ListActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sqlite_example1);
-        adapter=new Adapter(this);
-        Cursor c=adapter.getAllTypeInCursor();
-        int id=c.getInt(0);
-        String libelle=c.getString(1);
-        String[] columns = new String[] { id+"", libelle };
-        int[] to = new int[] { R.id.name_entry, R.id.number_entry };
 
-        SimpleCursorAdapter mAdapter = new SimpleCursorAdapter(this, R.layout.listexample, c, columns, to);
-
-        this.setListAdapter(mAdapter);
 
     }
 
