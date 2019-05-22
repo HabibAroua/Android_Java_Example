@@ -48,15 +48,15 @@ public class Navigation_Activity extends AppCompatActivity implements BottomNavi
         return true;
     }
 
-    @Override
+   // @Override
     public boolean onOptionsItemSelectedMenuItem(MenuItem item)
     {
         int id = item.getItemId();
 
-        if(id==R.id.action_settings)
+     //   if(id==R.id.action_settings)
         {
-            mTextMessage.setText(R.string.settings);
-            return true;
+       //     mTextMessage.setText(R.string.settings);
+         //   return true;
         }
         return super.onOptionsItemSelected(item);
     }
